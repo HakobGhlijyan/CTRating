@@ -42,7 +42,7 @@ public struct CTRating: View {
                     .scaledToFit()
                     .foregroundColor(Color(color))
                     .onTapGesture {
-                        self.currentRating = rating+1
+                        self.currentRating = rating + 1
                     }
             }
         }.frame(width: CGFloat(maxRating * width))

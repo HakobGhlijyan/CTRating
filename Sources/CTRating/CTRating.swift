@@ -26,7 +26,6 @@ public struct CTRating: View {
         ///   - width: The width of the image used for the rating  (Default - 20)
         ///   - color: The color of the image ( (Default - systemYellow)
         ///   - ratingImage: An enum representing the image used for the rating  (Default -  .star)
-        ///   
     public init(maxRating: Int, currentRating: Binding<Int>, width: Int = 20, color: UIColor = .systemYellow, ratingImage: RatingImage = .star) {
         self.maxRating = maxRating
         self._currentRating = currentRating
